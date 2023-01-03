@@ -1,8 +1,30 @@
 .App {
   text-align: center;
+  display: flex;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  font-size: 40px;
+  /* position: absolute; */
+  margin-top: 100px;
+  border: 1px black;
+  
+  
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  /* display: flex; */
+}
+h1 {
+  display: flex;
+  padding: 15px;
+  z-index: 4;
+  margin: auto;
+  /* align-items: center; */
+  position: absolute;
+  top: 0;
+
 }
 /* write your parent styles in here for your App.js */
